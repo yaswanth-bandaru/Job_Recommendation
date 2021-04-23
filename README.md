@@ -17,3 +17,9 @@ There are 4 datasets available on kaggle.
 ## Sample Results
 
 ![Capture](https://user-images.githubusercontent.com/30667531/115827233-a237f280-a3d1-11eb-93d2-1d07c3c7214f.PNG)
+
+## References
+
+https://medium.com/@chaitanyarb619/recommendation-systems-a-walk-trough-33587fecc195 <br />
+https://www.kaggle.com/c/job-recommendation <br />
+https://medium.com/@armandj.olivares/building-nlp-content-based-recommender-systems-b104a709c042 <br />
