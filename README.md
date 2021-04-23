@@ -10,9 +10,10 @@ There are 4 datasets available on kaggle.
 * The Positions_Of_Interest.csv: contains the interest the user previously has manifested.
 
 ## Approach
-1. Merged all the 4 datasets based on Applicant_ID and imputed missing values,removed stop words, performed lemmatization and merged the columns to create corpus.
+1. Merged all the 4 datasets based on Applicant_ID and selected useful columns.Then, imputed missing values,removed stop words, performed lemmatization and merged the columns to create corpus.
 2. Extracted features using TF-IDF and count vectorizer.
 3. Built content based recommendor using Spacy.
 
 ## Sample Results
 
+![Capture](https://user-images.githubusercontent.com/30667531/115827233-a237f280-a3d1-11eb-93d2-1d07c3c7214f.PNG)
