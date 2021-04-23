@@ -1,1 +1,18 @@
 # Job_Recommendation
+
+## Data Set
+
+There are 4 datasets available on kaggle.
+
+* The Combined_Jobs_Final.csv file: has the main jobs data(title, description, company, etc.).
+* The Job_Views.csv file: the file with the jobs seeing for the user.
+* The Experience.csv: the file containing the experience from the user.
+* The Positions_Of_Interest.csv: contains the interest the user previously has manifested.
+
+## Approach
+1. Merged all the 4 datasets based on Applicant_ID and imputed missing values,removed stop words, performed lemmatization and merged the columns to create corpus.
+2. Extracted features using TF-IDF and count vectorizer.
+3. Built content based recommendor using Spacy.
+
+## Sample Results
+
